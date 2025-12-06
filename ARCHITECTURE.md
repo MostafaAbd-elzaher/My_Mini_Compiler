@@ -2,7 +2,7 @@
 
 ```mermaid
 graph TD
-    SourceCode[Source Code (.mini)] --> Lexer
+    SourceCode --> Lexer
     Lexer --> Tokens
     Tokens --> Parser
     Parser --> AST[Abstract Syntax Tree]
